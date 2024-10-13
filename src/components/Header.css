@@ -1,0 +1,76 @@
+/* Header.css */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: ghostwhite;
+    color: black;
+    padding: 10px 20px;
+    /* width: 100%; */
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    
+  }
+  
+  .logo img {
+    width: 40px; /* Adjust the size as needed */
+    height: auto;
+    /* border-radius: 50%; */
+  }
+  
+  .search-box {
+    border: 1px solid #ddd;
+    border-radius: 9px;
+    width: 200px; /* Adjust width as needed */
+    background-color: floralwhite;
+    margin-right: auto;
+    margin-left: 15rem;
+  }
+  
+  .header-icons {
+    display: flex;
+    align-items: center;
+  }
+  
+  .header-icons i {
+    margin-right: 15px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: center;
+    
+  }
+  
+  .icon-bell .badge {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    padding: 2px 5px;
+    font-size: 10px;
+  }
+  
+  .profile {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+  }
+  
+  .profile img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  

@@ -1,0 +1,80 @@
+/* src/AddAttributeForm.css */
+
+.form-container {
+      width: 180%;
+    margin-top: 50px;
+    /* width: 360%; */
+    height: 100vh;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+    color: black;
+  }
+  
+  h2 {
+    text-align: start;
+    margin-bottom: 20px;
+    background-color: rgb(173, 205, 233);
+    border-radius: 5px;
+    padding-left: 10px;
+    color: black;
+  }
+  h2:hover{
+    background-color: rgb(147, 187, 223);
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+    display: flex;
+     gap: 10px;
+    flex-wrap: wrap;
+    
+  }
+  
+  .form-group label {
+    display: flex;
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  .form-froupflex{
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    gap: 3rem;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    width: 70%;
+    height: 90px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    color: black;
+  }
+  
+  .form-group textarea {
+    resize: vertical;
+    height: 100px;
+  }
+  
+  .submit-button0 {
+    display: block;
+    margin-top: 100px;
+    width: 100%;
+    padding: 10px;
+    background-color: #6c63ff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .submit-button0:hover {
+    background-color: #5a52e5;
+  }
+  

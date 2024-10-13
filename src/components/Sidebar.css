@@ -1,0 +1,94 @@
+/* Sidebar.css */
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  max-height: auto;
+  background-color: #fff;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-top: 50px;
+}
+
+.sidebar .menu {
+  flex: 1;
+}
+
+.sidebar .menu-item {
+  display: flex;
+  align-items: center;
+  padding: 10px 15px;
+  font-size: 16px;
+  color: black;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+  font-size: large;
+}
+
+.sidebar .menu-item:hover {
+  background-color: #457cd6;
+}
+
+.sidebar .menu-item.active {
+  color: #1c0a93;
+  background-color: #e0e7ff; 
+}
+
+.sidebar .menu-item.active .icon {
+  color: #3d2bb6;
+}
+
+.sidebar .menu-item .icon {
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+.sidebar .menu-item .expand-icon {
+  margin-left: auto;
+}
+
+.sidebar .logout {
+  padding: 10px 15px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #333;
+  text-align: center;
+  border-radius: 4px;
+  margin-bottom: 40rem;
+  margin-top: 3rem;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.sidebar .logout:hover {
+  background-color: #555;
+}
+
+.submenu {
+  background-color: whitesmoke;
+  padding-left: 20px;
+}
+
+.submenu .menu-item.active {
+  color: #1c0a93;
+}
+
+.menu-subitem {
+  display: block;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.menu-subitem:hover {
+  background-color: #f1f1f1;
+}
+
+.menu-subitem.active {
+  background-color: #727fac; 
+  color: white
+}
